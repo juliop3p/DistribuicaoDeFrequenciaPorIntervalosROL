@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Distribuição de Frequência por Intervalos</title>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Distribuição de Frequência por Intervalos</h1>
+            <button onclick="window.location.reload()">Refresh</button>
+            <button btnHelp >Help</button>
+        </header>
+        <div id="help">
+            <p>Preencha a amostra corretamente e depois clique em calcular!</p>
+        </div>
+        <section>
+            <p>Digite a Amostra:
+                <input type="number" name="txtnum" id="txtnum">
+                <button id="btn" class="btnClass">Guardar</button>
+            </p>
+            <button id="btnCalc" class="btnClass">Calcular</button>
+            <ul>
+                <li><select name="amostra" id="amostra" size="11px"><option class="labels">Amostra</option></select></li>
+                <li><select name="classe" id="classe" size="11px"><option class="labels">Classes</option></select></li>
+                <li></li><select name="fa" id="fa" size="11px"><option class="labels">FA</option></select></li>
+                <li></li><select name="faa" id="faa" size="11px"><option class="labels">FAA</option></select></li>
+                <li></li><select name="fr" id="fr" size="11px"><option class="labels">FR</option></select></li>
+                <li></li><select name="fra" id="fra" size="11px"><option class="labels">FRA</option></select></li>
+                <li></li><select name="pm" id="pm" size="11px"><option class="labels">PM</option></select></li>
+                <li></li><select name="pmxfa" id="pmxfa" size="11px"><option class="labels">PMxFA</option></select></li>
+            </ul>
+        
+
+        <div id="result">
+            Resultado...
+        </div>
+        </section>
+        
+    
+        <footer>
+            <p>Created by Julio Cesar | 09/2019 &copy;</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
