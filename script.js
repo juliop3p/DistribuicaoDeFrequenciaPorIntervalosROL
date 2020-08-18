@@ -201,11 +201,8 @@ document.querySelector('#btnCalc').onclick = () => {
 
 }
 
-document.querySelector('[btnHelp]').onmouseover = () => {
-    const opacity = document.querySelector('#help')
-    opacity.style.opacity === '0' ? opacity.style.opacity = '1' : opacity.style.opacity = '1'
-
-    document.querySelector('[btnHelp]').onmouseout = () => {
-        opacity.style.opacity === '1' ? opacity.style.opacity = '0' : opacity.style.opacity = '0'
-    }
+document.querySelector('[btnHelp]').onclick = () => {
+    const helper = document.querySelector('#help');
+    const state = helper.style.display;
+    helper.style.display = state === 'block' ? 'none' : 'block';
 }

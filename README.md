@@ -1,6 +1,12 @@
-Distribuição de Frequência Por Intervalos
+## Distribuição de Frequência Por Intervalos
+<hr />
 
-Pagina HTML que executa cálculos de estatística apartir de uma amostra.
+**Realiza os Cálculos de Média Aritmética, Mediana e Modal como base em uma amostra de números.**
 
-Necessário digitar a amostra após clicar em calcular ele vai montar a classe,
-o fa, e todos seus outros cálculos que resultam na MA, MO e MD.
+*Intuíto desse projeto é auxiliar na correção de exercicios de Estatística.*
+
+![image desktop](./readmeImages/desktop.png)
+
+<center>
+<img src="./readmeImages/mobile.png" style="width: 300px;" />
+</center>
