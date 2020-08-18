@@ -8,5 +8,5 @@
 ![image desktop](./readmeImages/desktop.png)
 
 <center>
-<img src="./readmeImages/mobile.png" style="width: 300px;" />
+<img src="./readmeImages/mobile.png" width="300px"/>
 </center>
