@@ -7,6 +7,6 @@
 
 ![image desktop](./readmeImages/desktop.png)
 
-<center>
+<p align="center">
 <img src="./readmeImages/mobile.png" width="300px"/>
-</center>
+</p>
